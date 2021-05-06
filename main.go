@@ -24,7 +24,7 @@ func main() {
 
 	token := os.Getenv("TOKEN")
 	if token == "" {
-		fmt.Println("No token provided. Please run: RoleBot -t <bot token>")
+		fmt.Println("No token provided. Please provide a .env file or run: TOKEN={TOKEN} ./RoleBot")
 		return
 	}
 
